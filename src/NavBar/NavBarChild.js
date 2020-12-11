@@ -7,7 +7,7 @@ const NavBarChild =(props)=>{
   const{Array,name}= props;
         return (
           <nav className="navbar">
-          <h1 className="noun" >  {name}</h1>
+          <h1 className="noun" >  {name} </h1>
           <ul  className="items">
               { Array.map((item,index)=> {
 
